@@ -2,7 +2,7 @@ export const sidebarLinks = [
     {
         label: 'Home',
         route:'/',
-        imgUrl: '/public/icons/Home.svg',
+        imgUrl: '/images/home.png',
     },
     {
         label: 'Upcoming',
