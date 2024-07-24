@@ -80,25 +80,25 @@ const MeetingTypeList = () => {
                 title="Add Meeting"
                 description="Start an instant meeting"
                 handelClick={() => setMeetingState('isInstantMeeting')}
-                className="bg-yellow-400" image={undefined}            />
+                className="bg-yellow-600 shadow-inner shadow-white" image={undefined}            />
             <HomeCard
                 img="/icons/schedule.svg"
                 title="Schedule Meeting"
                 description="Plan your Meeting"
                 handelClick={() => setMeetingState('isScheduleMeeting')}
-                className="bg-green-400" image={undefined}            />
+                className="bg-green-400 shadow-inner shadow-white" image={undefined}            />
             <HomeCard
                 img="/icons/recordings.svg"
                 title="View Recordings"
                 description="Check Out Your recordings"
                 handelClick={() => router.push('/recordings')}
-                className="bg-red-400" image={undefined}            />
+                className="bg-red-400 shadow-inner shadow-white" image={undefined}            />
             <HomeCard
                 img="/icons/join-meeting.svg"
                 title="Join Meeting"
                 description="Via invitation link"
                 handelClick={() => setMeetingState('isJoiningMeeting')}
-                className="bg-violet-800" image={undefined}            />
+                className="bg-violet-800 shadow-inner shadow-white" image={undefined}            />
             {!call ? (
                 <MeetingModal
                     isOpen={meetingState === 'isScheduleMeeting'}
