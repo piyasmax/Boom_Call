@@ -1,27 +1,31 @@
+
+import homeAnimation from '@/public/icons/homewhite.json';
+
 export const sidebarLinks = [
     {
         label: 'Home',
-        route:'/',
-        imgUrl: '/images/home.png',
+        route: '/',
+        isLottie: true,
+        lottieData: homeAnimation,
     },
     {
         label: 'Upcoming',
-        route:'/upcoming',
+        route: '/upcoming',
         imgUrl: '/icons/upcoming.svg',
     },
     {
         label: 'Previous',
-        route:'/previous',
+        route: '/previous',
         imgUrl: '/icons/previous.svg',
     },
     {
         label: 'Recordings',
-        route:'/recordings',
+        route: '/recordings',
         imgUrl: '/icons/Video.svg',
     },
     {
         label: 'Personal Room',
-        route:'/personal-room',
+        route: '/personal-room',
         imgUrl: '/icons/add-personal.svg',
     }
 
@@ -33,4 +37,4 @@ export const avatarImages = [
     '/images/avatar-3.png',
     '/images/avatar-4.png',
     '/images/avatar-5.png',
-  ];
+];

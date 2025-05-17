@@ -18,6 +18,7 @@
     "@stream-io/video-react-sdk": "^1.2.15",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "lottie-react": "^2.4.1",
     "lucide-react": "^0.408.0",
     "moment-timezone": "^0.5.45",
     "next": "14.2.5",
